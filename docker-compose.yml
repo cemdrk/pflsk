@@ -1,0 +1,8 @@
+
+version: '3'
+services:
+  ubnt:
+    build: .
+    tty: true
+    volumes:
+      - .:/app
